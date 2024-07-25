@@ -133,7 +133,7 @@ class ArticleControllerTest {
         }
 
         @ParameterizedTest(name = "{0}")
-        @DisplayName("비정상 패러미터이면 BadRequest")
+        @DisplayName("비정상 param이면 BadRequest")
         @CsvSource(
                 value = {
                         "subject is null,,content,user",
